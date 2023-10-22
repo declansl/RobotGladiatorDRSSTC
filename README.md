@@ -1,1 +1,1 @@
-# RobotGladiatorDRSSTC
+Design files for drsstc project
