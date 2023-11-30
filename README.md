@@ -1,2 +1,1 @@
-Design files for drsstc project
-BOM https://docs.google.com/document/d/14KgC26fHNlmBAOXTUE3qoVrVxJsYDjH5ITzpq8ey2XY/edit
+A battery powered dual resonant solid state Tesla coil. Pulse skip interrupter, 500A peak.
