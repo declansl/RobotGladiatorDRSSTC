@@ -1,0 +1,8 @@
+datasheets/applications:
+https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf
+https://www.murata.com/products/productdata/8807030259742/kdc-mgj6scdc.pdf?1665718264000
+https://docs.broadcom.com/doc/AV00-0291EN
+https://www.skyworksinc.com/-/media/Skyworks/SL/documents/public/data-sheets/Si827x.pdf
+https://www.tdk-electronics.tdk.com/inf/80/db/fer/r_20_0_10_0_7_0.pdf
+https://www.ti.com/lit/ds/symlink/ucc28070.pdf?ts=1700761713336&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FUCC28070
+https://docs.broadcom.com/doc/HCNR200-HCNR201-High-Linearity-Analog-Optocouplers-DS
