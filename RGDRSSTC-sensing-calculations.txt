@@ -1,0 +1,53 @@
+RG DRSSTC sensing calculations:
+
+GDT cores: 2x EPCOS B64290L0040X830 (N30)
+
+OD 58.3 x ID 40.8 x W 17.6 (mm)
+Ae 152.4 mm^2, le 152.4 mm
+AL 5400 nH +- 25%, ui 4300, bmax 0.24T worst case
+
+*courtesy of David Knierim on 4hv: https://4hv.org/e107_files/public/1253218586_1403_FT1630_spreadsheet1_0.jpg
+*loneoceans: https://www.loneoceans.com/labs/ud27/
+
+(Pulse Skip): Time (us) = 1000 / frequency (kHz)
+
+time (us), area (mm^2), Bmax (Teslas)
+Turns = time * volts / (saturation_flux_density * area)
+
+for 130khz, +-24v (just 24v in formula), and core specs
+
+= 5.05 -> 6 turns minimum, 11 actual (margin for freq down to 100khz but may be overkill*)
+CT cores: 4x Fair-Rite 5977006401 (77)
+
+OD 25.40 x ID 15.50 x W 12.7 (mm)
+Ae 61.6 mm^2, le 61.7 mm
+nH 2700 +- 25%, ui 2000, bmax = 0.3T (also conservative)
+
+
+From lonoceans: "For CT feedback, I aim for about 1A of feedback"
+From loneoceans: "OCD trip values work best around 2 to 7V to work within the range of the comparator. This should dictate what turns ratio you need for the OCD CT, when combined with the 5.1 ohm burden resistor."
+
+
+Feedback CT:
+
+Want operation of up to 600A with 300A normal.
+
+1:324 -> 1:18:18 cascaded
+47.2v max on burden, 0.926A max
+
+Over Current Detection CT:
+
+V works best within 2-7v, Burden R is 5.1
+Design for feedback CTs also work here.
+
+1:18:18, 4.7v at comparator for 300A OCD, if second 5.1 is added in parallel for 600A, back to 4.7v at comp.
+
+
+
+
+
+
+
+
+
+
