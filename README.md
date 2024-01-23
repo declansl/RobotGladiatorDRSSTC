@@ -8,5 +8,10 @@ A battery powered dual resonant solid state Tesla coil. Pulse skip interrupter, 
 
 ### images
 
+Full CAD model
+
 ![Alt text](image.png)
 
+Interior acrylic housing
+
+![image](https://github.com/declansl/RobotGladiatorDRSSTC/assets/137135495/57646902-2e63-423b-935e-ce22cb921f0d)
