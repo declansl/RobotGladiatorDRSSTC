@@ -20,6 +20,6 @@ Current progress on the DRSSTC! (3.7.2024)
 
 H-bridge switching - Featuring... A good amount of ringing! This is likely due to poor probing technique and the non-ideal testing setup. This will dissapear with the full assembly which has more capacitance and lower inductance.
 
-![image](https://github.com/declansl/RobotGladiatorDRSSTC/main/images/prifeedbackcurrent.jpg)
+![image](https://github.com/declansl/RobotGladiatorDRSSTC/blob/main/images/prifeedbackcurrent.jpg?raw=true)
 
 
